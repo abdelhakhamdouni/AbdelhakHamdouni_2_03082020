@@ -1,0 +1,18 @@
+/* Color */
+$color__primary : #0065FC;
+$color__secondary : #DEEBFF;
+$bg__gray: #F2F2F2;
+html, body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card__populaire{
+    width: 10rem;
+    img{
+        max-width: 100%;
+        margin: 8px;
+
+    }
+}
