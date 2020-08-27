@@ -93,7 +93,11 @@ a {
         background-color: #0065FC;
         color: white;
         font-weight: 600;
-        border-radius: 0 8px 8px 0; }
+        border-radius: 0 8px 8px 0;
+        cursor: pointer; }
+        .header .ville__recherche .group__input button:hover {
+          transform: translateY(-1px);
+          box-shadow: 1px 1px 1px 1px #b6b6b6; }
   .header .filters {
     display: flex;
     justify-content: flex-start;
@@ -121,7 +125,9 @@ a {
       .header .filters .filters__item:hover {
         background-color: #0065FC;
         color: #fff;
-        border: 2px solid #0065FC; }
+        border: 2px solid #0065FC;
+        transform: translateY(-1px);
+        box-shadow: 1px 1px 1px 1px #b6b6b6; }
       .header .filters .filters__item span {
         display: inline-flex;
         height: 38px;
@@ -134,7 +140,7 @@ a {
         margin-right: 8px;
         position: absolute;
         top: -2px;
-        left: -2px; }
+        left: -3px; }
   .header .info {
     margin-bottom: 15px; }
     .header .info span {
