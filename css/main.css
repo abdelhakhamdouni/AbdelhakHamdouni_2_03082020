@@ -15,7 +15,9 @@ ul, li {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit; 
+  cursor: pointer;
+}
   a:hover {
     color: #0065FC;
     transform: scale(1.01); }
