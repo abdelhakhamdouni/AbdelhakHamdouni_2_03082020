@@ -316,6 +316,10 @@ h2.title {
           flex-basis: 60%; }
         .main .activites__list .activites__group  .activite3 {
           flex-basis: 35% }
+.main .activites__list .activites__group  .activite5 {
+          flex-basis: 45% }
+.main .activites__list .activites__group  .activite6 {
+          flex-basis: 45% }
         .main .activites__list .activites__group  .activite1 .image {
           background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
           background-size:cover;
