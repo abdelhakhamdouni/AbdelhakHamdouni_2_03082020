@@ -326,7 +326,7 @@ h2.title {
           background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite2 .image {
           background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-          block-size: 100% 100%;
+          block-size: contain;
           background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite3 .image {
           background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
