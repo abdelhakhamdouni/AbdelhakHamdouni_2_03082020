@@ -307,7 +307,7 @@ h2.title {
           flex-direction: column;
           height: 100%;
           border-radius: 10px 10px 0 0;
-          background-size: 100% 100%;
+          background-size: contain;
           border-radius: 15px;
           box-shadow: 0 0 6px 3px #b1b1b14b; }
           .main .activites__list .activites__group .block__activites .activite .image {
