@@ -21,7 +21,7 @@ a{
     color: inherit;
     &:hover{
         color: $color__primary;
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
     
 }
@@ -32,6 +32,9 @@ a{
 .text-gras, strong{
     color: #232323;
     font-weight: 600;
+}
+.mt-2{
+    margin-top: 15px;
 }
 
 /* Css du container */
@@ -329,10 +332,76 @@ h2.title{
             }
         }
     }
-            .activites__list{
-                order: 3;
-                flex-basis: 100%;
+    /******************************************************/
+    /* ACTIVITES */
+    /******************************************************/
+    .activites__list{
+        display: flex;
+        align-items: stretch;
+        justify-content: stretch;
+        flex-direction: column;
+        padding: 30px 0;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        h2  {
+            width: 100%;
+            margin: 15px 15px 30px 0;
+        }
+        .activites__group{
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            width: 100%;
+            .block__activites{
+                width: 23%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 400px;
+                .activite{
+                    width: 16.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    height: 100%;
+                    border-radius: 10px 10px 0 0;
+                    background-size: 100% 100%;
+                    .image{
+                        flex: 1;
+                        border-radius: 8px 8px 0 0 ;
+                    }
+                    h6{
+                        font-size: .9em; 
+                        margin: 15px 0 0 15px;
+                    }
+                }
+                .activite1 .image{
+                    background-image: url('../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+                    block-size: cover;
+                }
+                .activite2 .image{
+                    background-image: url('../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+                    block-size: cover;
+                }
+                .activite3 .image{
+                    background-image: url('../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+                    block-size: cover;
+                }
+                .activite4 .image{
+                    background-image: url('../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+                    block-size: cover;
+                }
+                .activite5 .image{
+                    background-image: url('../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+                    block-size: cover;
+                }
+                .activite6 .image{
+                    background-image: url('../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+                    block-size: cover;
+                }
             }
+        }
+    }
     
     
 }
