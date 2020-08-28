@@ -133,7 +133,9 @@ a {
       padding-left: 47px;
       position: relative;
       text-transform: capitalize;
-      font-weight: 700; }
+      font-weight: 700; 
+      cursor: pointer;
+}
       .header .filters .filters__item:hover {
         background-color: #0065FC;
         color: #fff;
