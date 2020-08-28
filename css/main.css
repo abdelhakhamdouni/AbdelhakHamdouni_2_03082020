@@ -462,11 +462,18 @@ h2.title {
   }
   .main .activites__list .activites__group .block__activites{
       width: 90%;
-      
+      height: 
   }
   .main .activites__list .activites__group .block__activites .activite{
-     height: 20rem;
+     height: 15rem !important;
   }
+  .activite1,
+  .activite2, 
+  .activite3, 
+  .activite4, 
+  .activite5, 
+  .activite6{
+    flex: 1;
 
 }
 @media (min-width: 768px) and (max-width: 990px){
