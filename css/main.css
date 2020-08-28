@@ -466,9 +466,7 @@ h2.title {
  .main .activites__list .activites__group{
     align-items:center;
   }
-  .main .activites__list .activites__group  {
-      width: 90%;
-  }
+
   .main .activites__list .activites__group .activite{
      height: 15rem !important;
      width: 90%; 
