@@ -354,7 +354,6 @@ h2.title {
   justify-content: space-between;
   align-items: flex-start;
   padding: 30px; 
-  height: 320px;
 }
   .footer .footer__section {
     display: flex;
