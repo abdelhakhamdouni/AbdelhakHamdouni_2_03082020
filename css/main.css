@@ -301,7 +301,6 @@ h2.title {
         justify-content: space-between;
         height: 400px; }
         .main .activites__list .activites__group .block__activites .activite {
-          width: 17rem;
           display: flex;
           justify-content: space-between;
           flex-direction: column;
