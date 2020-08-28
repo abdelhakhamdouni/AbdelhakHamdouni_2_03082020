@@ -364,6 +364,9 @@ h2.title {
     .footer .footer__section ul, .footer .footer__section li {
       display: block; 
 }
+.footer .footer__section ul li{
+  height: 30px;
+}
 
 @media (max-width: 767px) {
   .site {
