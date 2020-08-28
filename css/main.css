@@ -306,42 +306,42 @@ h2.title {
         background-size: contain;
         border-radius: 15px;
         box-shadow: 0 0 6px 3px #b1b1b14b; }
-        .main .activites__list .activites__group .block__activites .activite .image {
+        .main .activites__list .activites__group .activite .image {
           flex: 1;
           border-radius: 8px 8px 0 0; }
-        .main .activites__list .activites__group .block__activites .activite h6 {
+        .main .activites__list .activites__group  .activite h6 {
           font-size: .9em;
           margin: 15px; }
-        .main .activites__list .activites__group .block__activites .activite2 {
+        .main .activites__list .activites__group  .activite2 {
           flex-basis: 60%; }
-        .main .activites__list .activites__group .block__activites .activite3 {
+        .main .activites__list .activites__group  .activite3 {
           flex-basis: 35% }
-        .main .activites__list .activites__group .block__activites .activite1 .image {
+        .main .activites__list .activites__group  .activite1 .image {
           background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
           background-size:cover;
           background-position: center;
 }
-        .main .activites__list .activites__group .block__activites .activite2 .image {
+        .main .activites__list .activites__group .activite2 .image {
           background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
           background-size: cover;
           background-position: center;
 }
-        .main .activites__list .activites__group .block__activites .activite3 .image {
+        .main .activites__list .activites__group  .activite3 .image {
           background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
           backgrounnd-size: cover;
           background-position: center;
 }
-        .main .activites__list .activites__group .block__activites .activite4 .image {
+        .main .activites__list .activites__group  .activite4 .image {
           background-image: url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
           background-size: cover;
           background-position: center;
 }
-        .main .activites__list .activites__group .block__activites .activite5 .image {
+        .main .activites__list .activites__group  .activite5 .image {
           background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
         background-size: cover;
           background-position: center;
 }
-        .main .activites__list .activites__group .block__activites .activite6 .image {
+        .main .activites__list .activites__group  .activite6 .image {
           background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
          background-size: cover;
           background-position: center;
