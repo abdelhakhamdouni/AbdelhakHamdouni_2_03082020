@@ -479,8 +479,7 @@ h2.title {
     flex-wrap: nowrap;
     width: 100%;
     padding: 0; 
-  } 
- .main .activites__list .activites__group{
+    height: auto;
     align-items:center;
   }
 
