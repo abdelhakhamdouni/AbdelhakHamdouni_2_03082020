@@ -455,6 +455,7 @@ h2.title {
   }
   .main .heberg .hebergement__list .afficher-plus {
      width: 90%;
+    pdding-left 15px;
   }
   .main .activites__list{
     justify-content: center;
