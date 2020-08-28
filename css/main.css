@@ -447,7 +447,14 @@ h2.title {
   .main .activites__group {
     flex-direction: column;
     width: 100%;
-    padding: 0; } }
+    padding: 0; 
+  } 
+  .main.activites__group .block__activites{
+      width: 90%;
+      
+  }
+
+}
 @media (min-width: 768px) and (max-width: 990px){
   .site{
     width: 100%;
