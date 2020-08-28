@@ -457,14 +457,14 @@ h2.title {
     width: 100%;
     padding: 0; 
   } 
-  .main .activites__group{
+  .activites__group{
     align-items:center;
   }
-  .main .activites__group .block__activites{
+  .block__activites{
       width: 90%;
       
   }
-   .main.activites__group .block__activites .activite{
+  .block__activites .activite{
      height: 20rem;
   }
 
