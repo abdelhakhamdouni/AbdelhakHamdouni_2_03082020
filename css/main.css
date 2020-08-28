@@ -510,6 +510,9 @@ h2.title {
   .site{
     width: 100%;
     padding: 0 16px;
+  }
+  .heberg{
+    flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
