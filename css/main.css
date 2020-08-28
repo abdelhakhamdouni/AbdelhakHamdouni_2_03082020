@@ -453,9 +453,15 @@ h2.title {
             .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image img {
               height: 100%;
   }
+  .main .heberg .hebergement__list .afficher-plus {
+     flex-basis: 90%;
+  }
   .main .activites__list{
     justify-content: center;
     align-items:center;
+  }
+  .main .activites__list h2{
+    flex-basis: 90%;
   }
   .main .activites__list .activites__group {
     flex-direction: column;
@@ -479,7 +485,10 @@ h2.title {
   .activite5, 
   .activite6{
     flex: 1;
-
+  }
+  .footer{
+    flex-direction: column;
+  }
 }
 @media (min-width: 768px) and (max-width: 990px){
   .site{
