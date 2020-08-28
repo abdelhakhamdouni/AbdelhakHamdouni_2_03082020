@@ -452,7 +452,7 @@ h2.title {
             .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image img {
               height: 100%;
   }
-  .main .activites__group {
+  .main .activites__list .activites__group {
     flex-direction: column;
     width: 100%;
     padding: 0; 
