@@ -455,16 +455,17 @@ h2.title {
   }
   .main .activites__list .activites__group {
     flex-direction: column;
+    flex-wrap: nowrap;
     width: 100%;
     padding: 0; 
   } 
  .main .activites__list .activites__group{
     align-items:center;
   }
-  .main .activites__list .activites__group .block__activites{
+  .main .activites__list .activites__group {
       width: 90%;
   }
-  .main .activites__list .activites__group .block__activites .activite{
+  .main .activites__list .activites__group .activite{
      height: 15rem !important;
   }
   .activite1,
