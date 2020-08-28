@@ -453,6 +453,10 @@ h2.title {
             .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image img {
               height: 100%;
   }
+  .main .activites__list{
+    justify-content: center;
+    align-items:center;
+  }
   .main .activites__list .activites__group {
     flex-direction: column;
     flex-wrap: nowrap;
