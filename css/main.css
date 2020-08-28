@@ -34,10 +34,12 @@ a {
   color: #0065FC; }
 
 /* Css du container */
-@media (min-width: 990px) {
+@media (min-width: 1200px) {
   .site {
     width: 75%;
-    margin: 0 auto; } }
+    margin: 0 auto; 
+  } 
+}
 .site {
   padding: 0 8px; }
 
