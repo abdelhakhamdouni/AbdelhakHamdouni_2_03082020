@@ -443,5 +443,9 @@ h2.title {
     flex-direction: column;
     width: 100%;
     padding: 0; } }
+@media (min-width: 768px) and (max-width: 990px){
+  .site{
+    width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
