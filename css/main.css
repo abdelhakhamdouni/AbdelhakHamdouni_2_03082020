@@ -488,6 +488,10 @@ h2.title {
   }
   .footer{
     flex-direction: column;
+    padding-bottom: 0;
+  }
+  .footer__section{
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 990px){
