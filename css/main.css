@@ -453,6 +453,9 @@ h2.title {
       width: 90%;
       
   }
+   .main.activites__group .block__activites .activite{
+     height: 20rem;
+  }
 
 }
 @media (min-width: 768px) and (max-width: 990px){
