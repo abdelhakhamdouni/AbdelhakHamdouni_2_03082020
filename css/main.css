@@ -417,42 +417,50 @@ h2.title {
 
   .main .heberg {
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+  }
     .main .heberg aside {
       order: 1;
       width: 100%;
       margin-bottom: 20px;
       border-radius: 0;
-      padding: 0; }
+      padding: 0;
+  }
       .main .heberg aside .title {
-        width: 90%; }
+        width: 90%; 
+  }
     .main .heberg .hebergement__list {
       margin-top: 20px;
       order: 2;
       width: 100%;
       margin: 0;
       padding: 0;
-      background-color: #fff; }
+      background-color: #fff;
+  }
       .main .heberg .hebergement__list .heberg__list__group {
-        flex-direction: column; }
+        flex-direction: column;
+  }
         .main .heberg .hebergement__list .heberg__list__group .card__hebergement {
           width: 85%;
           box-shadow: 0 0 6px 3px rgba(180, 178, 178, 0.274);
-          border-radius: 15px; }
+          border-radius: 15px;
+  }
           .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image {
             width: 100%;
-            height: 6rem; }
+            height: 6rem; 
+  }
             .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image img {
-              height: 100%; }
+              height: 100%;
+  }
   .main .activites__group {
     flex-direction: column;
     width: 100%;
     padding: 0; 
   } 
-  .main.activites__group{
+  .main .activites__group{
     align-items:center;
   }
-  .main.activites__group .block__activites{
+  .main .activites__group .block__activites{
       width: 90%;
       
   }
