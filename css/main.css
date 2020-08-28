@@ -454,14 +454,14 @@ h2.title {
               height: 100%;
   }
   .main .heberg .hebergement__list .afficher-plus {
-     flex-basis: 90%;
+     width: 90%;
   }
   .main .activites__list{
     justify-content: center;
     align-items:center;
   }
   .main .activites__list h2{
-    flex-basis: 90%;
+    width: 90%;
   }
   .main .activites__list .activites__group {
     flex-direction: column;
