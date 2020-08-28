@@ -468,8 +468,9 @@ h2.title {
   }
 
   .main .activites__list .activites__group .activite{
-     height: 15rem !important;
+     flex-basis: 15rem !important;
      width: 90%; 
+    margin-top: 15px;
   }
   .activite1,
   .activite2, 
