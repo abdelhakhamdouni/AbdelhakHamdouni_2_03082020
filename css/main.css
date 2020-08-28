@@ -30,6 +30,9 @@ a {
 .mt-2 {
   margin-top: 15px; }
 
+.fa-star {
+  color: #0065FC; }
+
 /* Css du container */
 @media (min-width: 990px) {
   .site {
@@ -54,6 +57,8 @@ a {
       display: flex;
       justify-content: center;
       align-items: center; }
+    .header nav .links {
+      height: 100%; }
     .header nav li {
       margin-right: 5rem; }
       .header nav li.active {
@@ -145,7 +150,7 @@ a {
         top: -2px;
         left: -3px; }
   .header .info {
-    margin-bottom: 15px; }
+    margin-bottom: 25px; }
     .header .info span {
       display: inline-block;
       line-height: 20px;
@@ -296,36 +301,142 @@ h2.title {
         justify-content: space-between;
         height: 400px; }
         .main .activites__list .activites__group .block__activites .activite {
-          width: 16.5rem;
+          width: 17rem;
           display: flex;
           justify-content: space-between;
           flex-direction: column;
           height: 100%;
           border-radius: 10px 10px 0 0;
-          background-size: 100% 100%; }
+          background-size: 100% 100%;
+          border-radius: 15px;
+          box-shadow: 0 0 6px 3px #b1b1b14b; }
           .main .activites__list .activites__group .block__activites .activite .image {
             flex: 1;
             border-radius: 8px 8px 0 0; }
           .main .activites__list .activites__group .block__activites .activite h6 {
             font-size: .9em;
-            margin: 15px 0 0 15px; }
+            margin: 15px; }
+        .main .activites__list .activites__group .block__activites .activite2 {
+          flex: 5; }
+        .main .activites__list .activites__group .block__activites .activite3 {
+          flex: 3; }
         .main .activites__list .activites__group .block__activites .activite1 .image {
           background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite2 .image {
           background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite3 .image {
           background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite4 .image {
           background-image: url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite5 .image {
           background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
         .main .activites__list .activites__group .block__activites .activite6 .image {
           background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-          block-size: cover; }
+          block-size: 100% 100%;
+          background-position: center center; }
+
+/***********************************************************/
+/* FOOTER */
+/***********************************************************/
+.footer {
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px; }
+  .footer .footer__section {
+    display: flex;
+    flex-direction: column; }
+    .footer .footer__section ul {
+      margin-top: 15px; }
+    .footer .footer__section ul, .footer .footer__section li {
+      display: block; }
+
+@media (max-width: 767px) {
+  .site {
+    padding: 0; }
+
+  .header {
+    width: 100%;
+    padding: 0; }
+    .header .accroche, .header .ville__recherche, .header .filters, .header .info {
+      padding: 0 8px; }
+    .header nav {
+      position: relative;
+      height: 160px; }
+      .header nav .navbar__brand {
+        position: absolute;
+        display: block;
+        height: 60px;
+        left: 15px;
+        top: 15px; }
+      .header nav .links {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: stretch;
+        align-items: stretch;
+        width: 100%; }
+        .header nav .links .links__secondary {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end; }
+          .header nav .links .links__secondary .sinscrir {
+            align-self: flex-end;
+            margin-right: 30px; }
+        .header nav .links .links__primary {
+          display: flex;
+          justify-content: space-between; }
+          .header nav .links .links__primary li {
+            margin-right: 15px;
+            width: 50%;
+            height: 50px; }
+            .header nav .links .links__primary li.active {
+              font-weight: 700;
+              border-top: none;
+              border-bottom: 3px solid #0065FC; }
+
+  .main .heberg {
+    flex-direction: column;
+    justify-content: space-between; }
+    .main .heberg aside {
+      order: 1;
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 0;
+      padding: 0; }
+      .main .heberg aside .title {
+        width: 90%; }
+    .main .heberg .hebergement__list {
+      margin-top: 20px;
+      order: 2;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #fff; }
+      .main .heberg .hebergement__list .heberg__list__group {
+        flex-direction: column; }
+        .main .heberg .hebergement__list .heberg__list__group .card__hebergement {
+          width: 85%;
+          box-shadow: 0 0 6px 3px rgba(180, 178, 178, 0.274);
+          border-radius: 15px; }
+          .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image {
+            width: 100%;
+            height: 6rem; }
+            .main .heberg .hebergement__list .heberg__list__group .card__hebergement .image img {
+              height: 100%; }
+  .main .activites__group {
+    flex-direction: column;
+    width: 100%;
+    padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */
