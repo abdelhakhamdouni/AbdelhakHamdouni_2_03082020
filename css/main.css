@@ -353,14 +353,17 @@ h2.title {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 30px; }
+  padding: 30px; 
+  height: 320px;
+}
   .footer .footer__section {
     display: flex;
     flex-direction: column; }
     .footer .footer__section ul {
       margin-top: 15px; }
     .footer .footer__section ul, .footer .footer__section li {
-      display: block; }
+      display: block; 
+}
 
 @media (max-width: 767px) {
   .site {
