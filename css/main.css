@@ -77,7 +77,7 @@ a {
     margin-bottom: 15px; }
     .header .accroche h1 {
       font-size: 1.2em;
-      margin-bottom: 5px 0; }
+      margin-bottom: 5px; }
     .header .accroche p {
       font-size: .9em; }
   .header .ville__recherche {
@@ -141,7 +141,6 @@ a {
       .header .filters .filters__item:hover {
         background-color: #0065FC;
         color: #fff;
-        border: 2px solid #0065FC;
         transform: translateY(-1px);
         box-shadow: 1px 1px 1px 1px #b6b6b6; }
       .header .filters .filters__item span {
@@ -343,7 +342,7 @@ h2.title {
 }
         .main .activites__list .activites__group  .activite3 .image {
           background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-          backgrounnd-size: cover;
+          background-size: cover;
           background-position: center;
 }
         .main .activites__list .activites__group  .activite4 .image {
